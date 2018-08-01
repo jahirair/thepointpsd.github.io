@@ -1,0 +1,137 @@
+*{margin:0;padding:0;}
+body{font-family: 'Roboto', sans-serif;font-weight:400;line-height:1.5em;}
+h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.5em;}
+p{font-weight:400;line-height:1.5em;}
+#header_area{border-top: 10px solid #000;
+    padding: 45px 0;background-color:#F4F5F1;}
+	
+.search_area form{width: 306px;
+    float: right;}
+.search_area input[type="text"]{border: 2px solid #000;
+    padding: 10px;float:left;}
+.search_area input[type="submit"]{border: 2px solid #D54346;
+    padding: 10px;
+    background: #D54346;
+    color: #fff;text-transform: uppercase;
+	cursor:pointer;
+	transition:1s;}
+	
+.search_area input[type="submit"]:hover{
+	border: 2px solid #000;
+	background: #000;
+}
+#main_menu{border-top:2px solid #DDDEDA;border-bottom:2px solid #DDDEDA;}
+.main_menu{margin-left: -5px;}
+.main_menu a{color: #000;
+text-decoration: none;
+padding: 5px;}
+
+ul#nav{margin: 0px 0 0 -20px;padding:0;list-style:none;clear:both;}
+ul#nav li{float:left;list-style:none;display:inline-block;margin:10px 0;position:relative;}
+ul#nav li a{color:  #333333;
+    font-size:  14px;
+    text-transform: uppercase;
+    display:  block; padding:0 20px;border-right:1px solid #ddd;}
+ul#nav li:last-child a{border-right:none;}
+ul#nav li a span{display:  block;color:#999999;text-transform:lowercase;}
+ul#nav li a:hover{text-decoration: none;}
+#main_menu .social_area{}
+#main_menu .social_area ul{margin: 15px 0;padding: 0;list-style: none;text-align:right;}
+#main_menu .social_area ul li{display:inline-block;margin-left:10px;}
+#main_menu .social_area ul li a{background: #333; color: #fff;height: 35px;width: 35px;display: block;border-radius: 50%;padding-right: 10px;padding-top: 6px;}
+#main_menu .social_area ul li:last-child a{}
+#main_menu .social_area ul li.facebook a:hover{background: #0078D7;}
+#main_menu .social_area ul li.twitter a:hover{background: #D54346;}
+#main_menu .social_area ul li.linkedin a:hover{background: #007FFC;}
+#main_menu .social_area ul li.gplus a:hover{background: #D54346;}
+#main_menu .social_area ul li.rss a:hover{background: #EE802F;}
+
+
+/*Drop down menu*/
+ul#nav li ul{    position: absolute;
+    background: #EE802F;
+    width: 125px;
+    top: 48px;
+	left:-999999px}
+	ul#nav li:hover ul{left:0;}
+ul#nav li ul li{margin:5px 0;}
+ul#nav li ul li a{border-right:none;color:#fff;}
+ul#nav li ul li a:hover{background:#000;width:100%;}
+
+
+/*Slider Area*/
+.slider_area{margin:0;padding:0;width:100%;clear:both;}
+.slider_area img{width:100%;height:500px;}
+
+#client_area{padding:40px 0;clear:both;}
+#client_area h2{}
+#client_area p{}
+.member_top	{text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;}
+.member{}
+.member img{width:100%;}
+.member p{text-align: center;
+    margin: 5px 0;}
+.member a{text-align: center;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #fff;
+    background: #D44346;
+    padding: 5px;
+    border-radius: 5px;}
+.member a:hover{text-decoration: none;}
+	
+.project_container{}
+.project{padding: 40px;}
+.project p{float: right;
+    display: block;
+    font-size: 13px;}
+.project p.large{font-size: 65px;
+    text-align: right;
+    line-height: 66px;
+    color: #D44346;
+    text-transform: uppercase;}
+.project_detail{}
+.project_detail img{width:100%}
+.project_detail h3{text-align: center;
+    margin: 10px 0;}
+.project_detail p{text-align: center;}
+.project_detail a{width: 125px;
+    background: #D54346;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;}
+	
+	.project_detail a:hover{text-decoration:none;}
+	
+	.footer_area{margin-top:30px;border-top:3px solid #871F21;background:#D54346;padding-top:40px;}
+	.footer_area h6{color:#fff; text-transform:uppercase;}
+	.footer_area p{color:#fff;}
+	.footer_area a{color:#631618;}
+	.footer_area a:hover{text-decoration:none;}
+	.about_us{margin-bottom: 20px;}
+	.about_us h6{}
+	.about_us p{}
+	.about_us a{}
+	.footer_bottom{padding:20px 0;border:1px solid #B7282C;margin-top:20px;}
+	.footer_bottom_right{text-align:right;float:right;}
+	.from_blog{}
+	.from_blog h6{}
+	.from_blog span{color: #fff;
+    font-size: 11px;}
+	.from_blog p{}
+	.from_blog a{}
+	.footer_middle a{display: block;
+    border-bottom: 1px solid #D85255;}
+	.footer_middle a:hover{text-decoration:none;}
+	.footer_middle span{color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    float: left;
+    margin-right: 10px;}
